@@ -4,17 +4,17 @@ title: Template as template
 published: True
 slug: template-template-template
 ---
-# Sequence: Template as Template
+# Sequence: Ambient Computing: Interactivity
 ## Sequence Summary:
-This sequence of modules introduces Grasshopper as a tool-creating medium, merging concepts in HCI, spatial thinking, affordance theory to use Grasshopper as a medium for general computational design processes
+This sequence of modules introduces concepts of interactivity in ambient computing as well as Processing. 
 ## Why?
-Thanks to the ecosystem of plugins, and Rhino/Grasshopper’s integration with Python/C# and other programming languages, Rhino/Grasshopper is effectively an interface/prototyping platform for spatial design and computational experimentation. Thinking and understanding of Rhino/Grasshopper as a platform, rather than a modeling program, enables us to experiment with spatial computing in conjunction with other computational tools.
+Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity.
 ## Modules:
-Smart Paintbrush: Geometry as Input, Basic logic, metrics: 
-Levels of Abstraction: Clusters and Plugins
-Dashboards and Representation: Custom Preview, Human UI
-Other Inputs: OSC, APIs, Data
-Final Project: Urban Tradeoffs
+Intro to Processing - Lighting
+Webhooks
+Sounds, Speech and Macros
+Markers and Tracking
+Computer Vision
 
 Template for Modules:
 ===========================================
@@ -35,10 +35,10 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 
 ![blahblah](0-template-gif.gif#img-full)
 
-1. **Download Processing.** 
+1. **Download Processing.**  
 Place [Processing](https://processing.org/download) in the Applications folder on your computer (or Program Files for Windows). When you double click Processing, it should install and launch the application with a new empty sketch. A sketch is where you will write your code. We’ll be writing code in Java inside of Processing.
 
-2. **Basics**
+2. **Basics**  
 You will have two basic parts in Processing, the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
 
 ```
@@ -54,10 +54,10 @@ void draw() {
 
 VIOLET EXAMPLE INSERT HERE - draw and setup in action
 
-3. **Documentation**
+3. **Documentation**  
 the basis of learning to code is really about learning how to find and use information (usually online). Rarely does anyone know off hand the exact syntax and operations to write all of their code from scratch. Rather, creative technologists and even seasoned software engineers regularly use the documentation pages for a programming language or a development environment to understand how a particular programming language functions, its operations, and so they can borrow from what's already written.
 You can find Processing's documentation here:
-[Processing Documentation](https://processing.org/download)
+[Processing Documentation](https://processing.org/reference/)
 
 ![alt-text](images_can_be_named_anything.png#img-left)
 
