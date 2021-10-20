@@ -54,9 +54,9 @@ Processing includes
    * a compiler - translates code written in a high-level language into a set of machine-language instructions that can be understood by a digital computer's CPU 
    * a display window - where visuals created by your sketch are displayed
 
-![rhino-template](images/17-160-0-Processing.png#img-left)
+![processing-diagram](images/processing-diagram-2.gif#img-full)
 
-VIOLET INSERT DIAGRAM (IDE :toolbar play/stop, text editor, console/errors, sketch)
+
 
 You will have two basic parts within a Processing "sketch", the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
 
@@ -85,6 +85,7 @@ If we look around within Processing's documentation, we'll see all kinds of oper
 
 **CHALLENGE**  
 Can you change the background to yellow?
+
 
 Here are some other fun functions to play with in your sketch.
 ```
@@ -118,9 +119,7 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
    * If you are looking for more examples — you can find some great things to try under `File` > `Examples`. This brings up a lot of various examples which you can play around with and learn how different bits of code are functioning.
    ![examples](images/17-160-0-Processing-Examples.png#img-left)
 
-
-   * Some useful things to know about the code:  
-   
+**TIPS & TRICKS** 
    ```
    //these two slashes create a comment in your code
    ```
