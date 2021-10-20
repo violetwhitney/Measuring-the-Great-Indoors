@@ -67,7 +67,10 @@ You can find Processing's documentation here:
 [Processing Documentation](https://processing.org/reference/)
 
 4. **Using Documentation**  
-So if we look around within Processing's documentation, we'll see all kinds of operations and parameters we can use in our code. So much possibility! Poke around at some of the operations
+If we look around within Processing's documentation, we'll see all kinds of operations and parameters we can use in our code. So much possibility! Poke around and click into some of the functions you see. Lets look into `background()`. You'll see if we click into [background](https://processing.org/reference/background_.html) we'll get information on how to use this function, what parameters it expects, and some examples. It looks like it takes a single number `background(51);` for a value between black and white, or 3 numbers `(background(152,190,100);` for RGB values.
+
+**CHALLENGE**  
+Can you change the background to yellow?
 
 ![alt-text](images_can_be_named_anything.png#img-left)
 
