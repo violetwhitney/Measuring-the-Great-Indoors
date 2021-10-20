@@ -16,10 +16,10 @@ Sounds, Speech and Macros
 Markers and Tracking
 Computer Vision
 
-Template for Modules:
+Ambient Computing:
 ===========================================
 
-# Grasshopper as Tool-making Medium: Levels of Abstraction: Clusters and Plugins
+# Interactivity - Intro to Processing - Lighting
 ## Module Summary
 
 TK
