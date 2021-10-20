@@ -6,7 +6,7 @@ slug: template-template-template
 ---
 # Sequence: Ambient Computing: Interactivity
 ## Sequence Summary:
-This sequence of modules introduces concepts of interactivity in ambient computing as well as Processing. 
+This sequence of modules introduces concepts of ambient computing including inclding interactivity inside of Processing. 
 ## Why?
 ambient computing 
 low code prototypeability
@@ -31,11 +31,12 @@ Ambient Computing:
 
 # Interactivity - Intro to Processing - Lighting
 ## Module Summary
-Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity.
+In this module you will get an intro to the Processing environment, build a simple sketch and learn how to find, understand, and use Processing Documenation in your own sketches.
 
 ## Conceptual Introduction, or: Why is this interesting / important?
+Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity. Processing can be a great environment to prototype user interfaces, tie together IOT devices, and work with interactive audio.
 
-TK
+Below are some examples of artists using Processing in their own work:
 
 ![processing-ex](images/processing-ex-5.gif#img-left)
 ![processing-ex](images/processing-ex-4.gif#img-left)
