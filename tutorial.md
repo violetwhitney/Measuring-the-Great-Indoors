@@ -117,10 +117,10 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
 
 * Some other useful tips
    * If you are looking for more examples — you can find some great things to try under `File` > `Examples`. This brings up a lot of various examples which you can play around with and learn how different bits of code are functioning.
-   ![examples](images/17-160-0-Processing-Examples.png#img-left)
+   ![examples](images/processing-ex-1.png#img-left)
 
 **TIPS & TRICKS** 
    ```
    //these two slashes create a comment in your code
    ```
-   * `print()` allows you to see the values of a parameter in the console. For example, if you add this `print(second());` in the draw loop, you will see a continual update in the console of your second parameter. Give it a try! 
+  `print()` allows you to see the values of a parameter in the console. For example, if you add this `print(second());` in the draw loop, you will see a continual update in the console of your second parameter. Give it a try! 
