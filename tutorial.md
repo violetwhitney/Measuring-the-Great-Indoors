@@ -6,7 +6,7 @@ slug: template-template-template
 ---
 # Sequence: Ambient Computing: Interactivity
 ## Sequence Summary:
-This sequence of modules introduces concepts of ambient computing including inclding interactivity inside of Processing. 
+This sequence of modules introduces concepts of ambient computing including inclding interactivity inside of Processing. You will learn how to use Processing and create an interactive sketch. You will learn how to connect Processing to Microservices using Webhooks; how to work with sound and speech with a microphone and speakers; how to work with Processing Libraries; and how to track the movement of objects and people via a webcam.
 ## Why?
 ambient computing 
 low code prototypeability
@@ -20,7 +20,7 @@ Concepts designers must think through - permissioning (governance of groups), et
 
 
 ## Modules:
-Intro to Processing - Lighting
+Intro to Processing
 Webhooks
 Sounds, Speech and Macros
 Markers and Tracking
@@ -29,7 +29,7 @@ Computer Vision
 Ambient Computing:
 ===========================================
 
-# Interactivity - Intro to Processing - Lighting
+# Interactivity - Intro to Processing 
 ## Module Summary
 In this module you will get an intro to the Processing environment, build a simple sketch and learn how to find, understand, and use Processing Documenation in your own sketches.
 
