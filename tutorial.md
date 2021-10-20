@@ -39,7 +39,14 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 Place [Processing](https://processing.org/download) in the Applications folder on your computer (or Program Files for Windows). When you double click Processing, it should install and launch the application with a new empty sketch. A sketch is where you will write your code. We’ll be writing code in Java inside of Processing.
 
 2. **Basics**  
-You will have two basic parts in Processing, the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
+Processing includes 
+   * a text editor - where you write your code (called a "sketch" in Processing)
+   * a compiler - translates code written in a high-level language into a set of machine-language instructions that can be understood by a digital computer's CPU 
+   * a display window - where visuals created by your sketch are displayed
+
+VIOLET INSERT DIAGRAM (IDE :toolbar play/stop, text editor, console/errors, sketch)
+
+You will have two basic parts within a Processing "sketch", the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
 
 ```
 void setup() {
@@ -54,10 +61,13 @@ void draw() {
 
 VIOLET EXAMPLE INSERT HERE - draw and setup in action
 
-3. **Documentation**  
-the basis of learning to code is really about learning how to find and use information (usually online). Rarely does anyone know off hand the exact syntax and operations to write all of their code from scratch. Rather, creative technologists and even seasoned software engineers regularly use the documentation pages for a programming language or a development environment to understand how a particular programming language functions, its operations, and so they can borrow from what's already written.
+3. **Documentation Intro**  
+The basis of learning to code is really about learning how to find and use information (usually online). Rarely does anyone know off hand the exact syntax and operations to write all of their code from scratch. Rather, creative technologists and even seasoned software engineers regularly use the documentation pages for a programming language or a development environment to understand how a particular programming language functions, its operations, and so they can borrow from what's already written.
 You can find Processing's documentation here:
 [Processing Documentation](https://processing.org/reference/)
+
+4. **Using Documentation**  
+So if we look around within Processing's documentation, we'll see all kinds of operations and parameters we can use in our code. So much possibility! Poke around at some of the operations
 
 ![alt-text](images_can_be_named_anything.png#img-left)
 
