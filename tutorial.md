@@ -94,12 +94,24 @@ Can you change the fill and stroke of the ellipse?
 Remember the draw loop runs continuously so you can build interactive functionality. Lets take advantage of this to see other ways we can get our ellipse on the screen to move. You can think about your sketch as one long algebra formula where substitutions can be made to the code. Most locations where you see `()` accept parameters that are specific to the function. Remember the "R,G,B" number values we added as parameters to our `background()` function.
 To make the ellipse move we can edit its `x` and `y` parameters. [Let's look up what parameters the ellipse accepts](https://processing.org/reference/ellipse_.html). Looks like its syntax is `ellipse(x-coord, y-coord, width, height)`	where each of those parameters is a number (a float to be more specific).
 
-`width` and `height` grow each `millis`             |  `width` and `height` grow each `second`         |  `x` moves each `second`
+`x` moves each `second`             |  `width` and `height` grow each `second`         |  `width` and `height` grow each `millis`
 :-------------------------:|:-------------------------:|:-------------------------:
 ![](images/17-160-0-Processing-incremental.gif)  |  ![](images/17-160-0-Processing-step.gif)  |  ![](images/17-160-0-Processing-slow.gif)
 
 
+**CHALLENGE**  
+With the help of the tutorials above, please create you own combination of colors, shape, time, Processing’s movie input, and video camera input to create your own lighting phenomena. Please also use one new function not referenced in this tutorial from the Processing Documentation, such as `text()`.
 
+Document your lighting effects through videos and gifs. Extra bonus points for testing some light projection with a projector! Can you play with aspects of the room to get your projection to align with the space?
+
+* Some other useful tips
+   * If you are looking for more examples — you can find some great things to try under `File` > `Examples`. This brings up a lot of various examples which you can play around with and learn how different bits of code are functioning.
+   * Some useful things to know about the code:  
+   
+   ```
+   //these two slashes create a comment in your code
+   ```
+   * `print()` allows you to see the values of a parameter in the console. For example, if you add this `print(second());` in the draw loop, you will see a continual update in the console of your second parameter. Give it a try! 
 
 <div class=”video”>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/603252807?h=28246f992b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction to Rhino 1 of 3: Interface"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
