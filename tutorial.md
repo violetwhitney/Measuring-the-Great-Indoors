@@ -22,18 +22,19 @@ Template for Modules:
 # Grasshopper as Tool-making Medium: Levels of Abstraction: Clusters and Plugins
 ## Module Summary
 
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+TK
 
 ## Conceptual Introduction, or: Why is this interesting / important?
 
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+TK
 
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![processing-ex](images/processing-ex-5.gif#img-left)
+![processing-ex](images/processing-ex-4.gif#img-left)
+![processing-ex](images/processing-ex2.gif#img-left)
+![processing-ex](images/processing-ex1.gif#img-left)
+![processing-ex](images/low-code.jpeg#img-left)
 
-labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 ## Tutorial
-
-![blahblah](0-template-gif.gif#img-full)
 
 1. **Download Processing.**  
 Place [Processing](https://processing.org/download) in the Applications folder on your computer (or Program Files for Windows). When you double click Processing, it should install and launch the application with a new empty sketch. A sketch is where you will write your code. We’ll be writing code in Java inside of Processing.
@@ -106,6 +107,9 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
 
 * Some other useful tips
    * If you are looking for more examples — you can find some great things to try under `File` > `Examples`. This brings up a lot of various examples which you can play around with and learn how different bits of code are functioning.
+   ![examples](images/17-160-0-Processing-Examples.png#img-left)
+
+
    * Some useful things to know about the code:  
    
    ```
