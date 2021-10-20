@@ -72,6 +72,24 @@ If we look around within Processing's documentation, we'll see all kinds of oper
 **CHALLENGE**  
 Can you change the background to yellow?
 
+Here are some other fun functions to play with in your sketch.
+```
+fill()
+noFill()
+stroke()
+brightness()
+color()
+hue()
+saturation()
+```
+
+**CHALLENGE**  
+Can you change the fill and stroke of the ellipse?
+
+5. **Understanding the Draw Loop**  
+Remember the draw loop runs continuously so you can build interactive functionality. Lets take advantage of this to see other ways we can get our ellipse on the screen to move. You can think about your sketch as one big long formula
+
+
 ![alt-text](images_can_be_named_anything.png#img-left)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
