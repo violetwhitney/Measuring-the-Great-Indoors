@@ -35,8 +35,29 @@ labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitatio
 
 ![blahblah](0-template-gif.gif#img-full)
 
+1. **Download Processing.** 
+Place [Processing](https://processing.org/download) in the Applications folder on your computer (or Program Files for Windows). When you double click Processing, it should install and launch the application with a new empty sketch. A sketch is where you will write your code. We’ll be writing code in Java inside of Processing.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.
+2. **Basics**
+You will have two basic parts in Processing, the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
+
+```
+void setup() {
+  size(1280, 960);
+}
+  
+void draw() {
+  background(0);
+  ellipse(mouseX,mouseY,500,510);
+}
+```
+
+VIOLET EXAMPLE INSERT HERE - draw and setup in action
+
+3. **Documentation**
+the basis of learning to code is really about learning how to find and use information (usually online). Rarely does anyone know off hand the exact syntax and operations to write all of their code from scratch. Rather, creative technologists and even seasoned software engineers regularly use the documentation pages for a programming language or a development environment to understand how a particular programming language functions, its operations, and so they can borrow from what's already written.
+You can find Processing's documentation here:
+[Processing Documentation](https://processing.org/download)
 
 ![alt-text](images_can_be_named_anything.png#img-left)
 
