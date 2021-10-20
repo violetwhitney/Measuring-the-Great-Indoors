@@ -71,9 +71,7 @@ You can find Processing's documentation here:
 4. **Using Documentation**  
 If we look around within Processing's documentation, we'll see all kinds of operations and parameters we can use in our code. So much possibility! Poke around and click into some of the functions you see. Lets look into `background()`. You'll see if we click into [background](https://processing.org/reference/background_.html) we'll get information on how to use this function, what parameters it expects, and some examples. It looks like it takes a single number `background(51);` for a value between black and white, or 3 numbers `(background(152,190,100);` for RGB values.
 
-
-![light-image](images/17-160-1-light.jpg#img-left)
-
+![light-image](images/17-160-0-Processing-Background-Color.png#img-left)
 
 **CHALLENGE**  
 Can you change the background to yellow?
@@ -93,28 +91,17 @@ saturation()
 Can you change the fill and stroke of the ellipse?
 
 5. **Understanding the Draw Loop**  
-Remember the draw loop runs continuously so you can build interactive functionality. Lets take advantage of this to see other ways we can get our ellipse on the screen to move. You can think about your sketch as one big long formula
+Remember the draw loop runs continuously so you can build interactive functionality. Lets take advantage of this to see other ways we can get our ellipse on the screen to move. You can think about your sketch as one long algebra formula where substitutions can be made to the code. Most locations where you see `()` accept parameters that are specific to the function. Remember the "R,G,B" number values we added as parameters to our `background()` function.
+To make the ellipse move we can edit its `x` and `y` parameters. [Let's look up what parameters the ellipse accepts](https://processing.org/reference/ellipse_.html). Looks like its syntax is `ellipse(x-coord, y-coord, width, height)`	where each of those parameters is a number (a float to be more specific).
 
-
-![alt-text](images_can_be_named_anything.png#img-left)
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-![more alt-text about image](images/images_work_in_subfolders.png#img-right)
+`width` and `height` grow each `millis`             |  `width` and `height` grow each `second`         |  `x` moves each `second`
+:-------------------------:|:-------------------------:|:-------------------------:
+![](images/17-160-0-Processing-incremental.gif)  |  ![](images/17-160-0-Processing-step.gif)  |  ![](images/17-160-0-Processing-slow.gif)
 
 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 <div class=”video”>
 <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/603252807?h=28246f992b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction to Rhino 1 of 3: Interface"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 </div>
 
-Code block:
-```
-console.log("hello world");
-console.log("hello world");
-console.log("hello world");
-```
-
-The End!!
