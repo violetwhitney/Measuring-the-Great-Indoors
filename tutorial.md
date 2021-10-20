@@ -8,7 +8,12 @@ slug: template-template-template
 ## Sequence Summary:
 This sequence of modules introduces concepts of interactivity in ambient computing as well as Processing. 
 ## Why?
-Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity.
+ambient computing 
+low code prototypeability
+interactivity
+
+Ambient computing 
+
 ## Modules:
 Intro to Processing - Lighting
 Webhooks
@@ -21,8 +26,7 @@ Ambient Computing:
 
 # Interactivity - Intro to Processing - Lighting
 ## Module Summary
-
-TK
+Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity.
 
 ## Conceptual Introduction, or: Why is this interesting / important?
 
@@ -116,8 +120,3 @@ Document your lighting effects through videos and gifs. Extra bonus points for t
    //these two slashes create a comment in your code
    ```
    * `print()` allows you to see the values of a parameter in the console. For example, if you add this `print(second());` in the draw loop, you will see a continual update in the console of your second parameter. Give it a try! 
-
-<div class=”video”>
-<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/603252807?h=28246f992b&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Introduction to Rhino 1 of 3: Interface"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-</div>
-
