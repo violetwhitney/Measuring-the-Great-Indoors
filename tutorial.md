@@ -44,6 +44,8 @@ Processing includes
    * a compiler - translates code written in a high-level language into a set of machine-language instructions that can be understood by a digital computer's CPU 
    * a display window - where visuals created by your sketch are displayed
 
+![rhino-template](images/17-160-0-Processing.png#img-left)
+
 VIOLET INSERT DIAGRAM (IDE :toolbar play/stop, text editor, console/errors, sketch)
 
 You will have two basic parts within a Processing "sketch", the **“setup”** and the **“draw”** loop. The setup loop runs once when launching your script, whereas the draw loop runs repeatedly. This allows you to save computing power by sticking parts of the code that only need to run at the start in the setup loop. The draw loop will continually update so it can change over time, or get realtime information such as the location of your mouse or update a camera feed.
@@ -68,6 +70,10 @@ You can find Processing's documentation here:
 
 4. **Using Documentation**  
 If we look around within Processing's documentation, we'll see all kinds of operations and parameters we can use in our code. So much possibility! Poke around and click into some of the functions you see. Lets look into `background()`. You'll see if we click into [background](https://processing.org/reference/background_.html) we'll get information on how to use this function, what parameters it expects, and some examples. It looks like it takes a single number `background(51);` for a value between black and white, or 3 numbers `(background(152,190,100);` for RGB values.
+
+
+![light-image](images/17-160-1-light.jpg#img-left)
+
 
 **CHALLENGE**  
 Can you change the background to yellow?
