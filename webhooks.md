@@ -110,5 +110,32 @@ Close and restart Processing.
         get.send();
   ```
 
+Your full code should look like this:
 
+```
+import http.requests.*;
+//update the below API key
+String apiKey = "_______";
+//update the event name to match the event name in Webhooks
+String eventName1 = "turn_on";
+String eventName2 = "turn_off";
+void setup() {
+  size(200,150);
+  background(0);
+}
+void draw() {
+  
+}
+void keyPressed() {
+    if (keyCode == UP) {
+      GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName1 + "/with/key/" + apiKey);
+      get.send();
+      background(255);
+    } else if (keyCode == DOWN) {
+      GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName2 + "/with/key/" + apiKey);
+      get.send();
+      background(0);
+    }
+}
+```
 
