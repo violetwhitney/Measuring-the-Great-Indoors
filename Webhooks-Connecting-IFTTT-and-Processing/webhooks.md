@@ -39,6 +39,7 @@ APIs, ability to talk to things on the web
 expanding the spatial UX toolkit - connecting software UI/programmability of Processing to IOT and microservice world 
 
 ## Tutorial
+### Creating A IFTTT Recipe with Webhooks
 1. sign in to [IFTTT](https://ifttt.com/home)
 2. Go to `Create` → to create a new application
 3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks`.
@@ -55,6 +56,7 @@ expanding the spatial UX toolkit - connecting software UI/programmability of Pro
 
 ![blahblah](images/webhooks-3.7.gif#img-full)
 
+### Creating An API Key
 8. Now we need to get the HTTP request link to add to our processing sketch. Go to your profile image in the top right and select `My services` and select `webhooks`.
 9. Now from the webhooks page **click** the `settings`.
 
@@ -66,7 +68,7 @@ expanding the spatial UX toolkit - connecting software UI/programmability of Pro
 Congrats! You have just created a unique key for IFTTT (common to software development when working with APIs).
 
 
-Processing Code
+### Connecting Processing to your Webhook API
 Lets start by using `keyPressed()` in Processing to turn on a light bulb.
 First we need to add a library which allows Processing to make HTTP requests. In Processing import the http request library. Go to `Sketch`→`Import Library` → `Add Library` → Search for **“http request”**. Select it and click `install`. Sometimes you will need to relaunch Processing after you install this library. If this works, skip to step 2.
 
