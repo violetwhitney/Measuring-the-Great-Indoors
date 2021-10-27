@@ -32,6 +32,13 @@ Ambient Computing:
 - **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we have created
 - **IFTTT (Action)** — This can be any action from IFTTT as it normally works in IFTTT recipes.
 
+
+## Conceptual Introduction
+TK
+APIs, ability to talk to things on the web
+expanding the spatial UX toolkit - connecting software UI/programmability of Processing to IOT and microservice world 
+
+## Tutorial
 1. sign in to [IFTTT](https://ifttt.com/home)
 2. Go to `Create` → to create a new application
 3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks` and click `connect`.
