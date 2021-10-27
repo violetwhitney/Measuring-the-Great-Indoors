@@ -53,4 +53,18 @@ Template for Modules:
 
 10. Here you can find a URL with your **“unique key”**. Click `Documentation` then copy the key (very long text and number key).
 
+Congrats! You have just created a unique key for IFTTT (common to software development when working with APIs).
+
+
+Processing Code
+Lets start by using `keyPressed()` in Processing to turn on a light bulb.
+First we need to add a library which allows Processing to make HTTP requests. In Processing import the http request library. Go to `Sketch`→`Import Library` → `Add Library` → Search for **“http request”**. Select it and click `install`. Sometimes you will need to relaunch Processing after you install this library. If this works, skip to step 2.
+
+If you’re still having issues with this library try downloading it directly:
+- You can download the library file directly from [here](https://drive.google.com/file/d/1GasdTrMZEwzPjEXPEwKMxjzdcV9WAIxE/view?usp=drive_open).
+Unzip the folder.
+- Search for your `Processing` folder on your computer, you will have a sub-folder names `libraries`.
+- Move the unzipped files to this `libraries` folder.
+Close and restart Processing.
+
 
