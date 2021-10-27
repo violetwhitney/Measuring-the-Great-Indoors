@@ -26,7 +26,7 @@ Ambient Computing:
 
 [Webhooks](https://ifttt.com/maker_webhooks) allows you to make or receive a web request with IFTTT. This means that we can get applications not already supported by IFTTT to talk to IFTTT. We will use Processing to create an HTTP request that will alert our webhook triggering an action in IFTTT. There will be three basic parts to linking IFTTT and Processing:
 
-![blahblah](0-template-gif.gif#img-full)
+![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
 
 - **Processing (HTTP request)** — here we can program our own unique triggers such as a button, light level, sound, number of faces in a camera can trigger our webhook. The important part is that we have all the necessary information in Processing (the API key for webhooks, and the right “event name” from webhooks.
 - **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we have created
@@ -36,7 +36,7 @@ Ambient Computing:
 2. Go to `Create` → to create a new application
 3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks` and click `connect`.
 
-![blahblah](0-template-gif.gif#img-full)
+![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
 
 4. Now click on the **“Receive a web request”** .
 5. Create an **“Event Name”** for the trigger. I will just call mine **“turn_on”**. If you are creating a new event trigger, you should name this something unique. Then click `Create trigger`.
