@@ -26,6 +26,22 @@ Template for Modules:
 
 ![blahblah](0-template-gif.gif#img-full)
 
+- **Processing (HTTP request)** — here we can program our own unique triggers such as a button, light level, sound, number of faces in a camera can trigger our webhook. The important part is that we have all the necessary information in Processing (the API key for webhooks, and the right “event name” from webhooks.
+- **Webhook (Trigger)**— when Processing triggers an HTTP request with our event name, webhooks will relay this trigger to the appropriate action based on the recipe we have created
+- **IFTTT (Action)** — This can be any action from IFTTT as it normally works in IFTTT recipes.
 
+1. sign in to [IFTTT](https://ifttt.com/home)
+2. Go to `Create` → to create a new application
+3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks` and click `connect`.
+
+![blahblah](0-template-gif.gif#img-full)
+
+4. Now click on the **“Receive a web request”** .
+5. Create an **“Event Name”** for the trigger. I will just call mine **“turn_on”**. If you are creating a new event trigger, you should name this something unique. Then click `Create trigger`.
+
+![blahblah](0-template-gif.gif#img-full)
+
+6. Now we need to create our **“that”** event, click on the `that` button. Select any notification as you normally would. In our instance I will turn on an outlet from `Kasa TP-Link`.
+7.Now select the Kasa TP-Link device that you plan to turn on.
 
 
