@@ -67,4 +67,48 @@ Unzip the folder.
 - Move the unzipped files to this `libraries` folder.
 Close and restart Processing.
 
+2. Now lets set up the basic structure of our code using a `keyPressed()` to change the background color of our sketch. If the `UP` key is pressed we will make the background white and if the `DOWN` key is pressed we will turn the background black:
+  ```
+  void setup() {
+    size(200,150);
+    background(0);
+  }
+  void draw() {
+  }
+  void keyPressed() {
+      if (keyCode == UP) {
+        background(255);
+
+      } else if (keyCode == DOWN) {
+        background(0);
+      }
+  }
+  ```
+
+3. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. Once you’ve pasted in the code below, please update it with your API key and event names.
+
+  ```
+  import http.requests.*;
+  //update the below API key
+  String apiKey = "_____";
+  //update the event name to match the event name in Webhooks
+  String eventName1 = "turn_on";
+  String eventName2 = "turn_off";
+  ```
+ 
+ 4. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
+  ```
+  GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName1 + "/with/key/" + apiKey);
+        get.send();
+  ```
+  You’ll notice this is a “string” that is concatenated to create a URL.
+  
+ 5. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
+
+  ```
+  GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName2 + "/with/key/" + apiKey);
+        get.send();
+  ```
+
+
 
