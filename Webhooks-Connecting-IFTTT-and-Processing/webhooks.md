@@ -43,7 +43,7 @@ expanding the spatial UX toolkit - connecting software UI/programmability of Pro
 2. Go to `Create` → to create a new application
 3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks` and click `connect`.
 
-![processing-diagram](images/Webhooks-Connecting-IFTTT-and-Processing-diagram1.png#img-full)
+![processing-diagram](images/webhooks-1.gif#img-full)
 
 4. Now click on the **“Receive a web request”** .
 5. Create an **“Event Name”** for the trigger. I will just call mine **“turn_on”**. If you are creating a new event trigger, you should name this something unique. Then click `Create trigger`.
