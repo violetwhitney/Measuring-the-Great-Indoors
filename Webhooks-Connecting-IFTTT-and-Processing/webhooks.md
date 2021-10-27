@@ -69,8 +69,10 @@ Congrats! You have just created a unique key for IFTTT (common to software devel
 
 
 ### Connecting Processing to your Webhook API
-Lets start by using `keyPressed()` in Processing to turn on a light bulb.
-First we need to add a library which allows Processing to make HTTP requests. In Processing import the http request library. Go to `Sketch`→`Import Library` → `Add Library` → Search for **“http request”**. Select it and click `install`. Sometimes you will need to relaunch Processing after you install this library. If this works, skip to step 2.
+1. Open up Processing! Lets start by using `keyPressed()` in Processing to turn on a light bulb.
+2. First we need to add a library which allows Processing to make HTTP requests. In Processing import the http request library. Go to `Sketch`→`Import Library` → `Add Library` → Search for **“http request”**. Select it and click `install`. Sometimes you will need to relaunch Processing after you install this library. If this works, skip to step 2.
+
+![blahblah](temp#img-full)
 
 If you’re still having issues with this library try downloading it directly:
 - You can download the library file directly from [here](https://drive.google.com/file/d/1GasdTrMZEwzPjEXPEwKMxjzdcV9WAIxE/view?usp=drive_open).
@@ -79,7 +81,7 @@ Unzip the folder.
 - Move the unzipped files to this `libraries` folder.
 Close and restart Processing.
 
-2. Now lets set up the basic structure of our code using a `keyPressed()` to change the background color of our sketch. If the `UP` key is pressed we will make the background white and if the `DOWN` key is pressed we will turn the background black:
+3. Now lets set up the basic structure of our code using a `keyPressed()` to change the background color of our sketch. If the `UP` key is pressed we will make the background white and if the `DOWN` key is pressed we will turn the background black:
   ```
   void setup() {
     size(200,150);
@@ -96,8 +98,9 @@ Close and restart Processing.
       }
   }
   ```
+![blahblah](temp#img-full)
 
-3. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. Once you’ve pasted in the code below, please update it with your API key and event names.
+4. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. Once you’ve pasted in the code below, please update it with your API key and event names.
 
   ```
   import http.requests.*;
@@ -107,15 +110,19 @@ Close and restart Processing.
   String eventName1 = "turn_on";
   String eventName2 = "turn_off";
   ```
+  
+  ![blahblah](temp#img-full)
  
- 4. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
+ 5. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
   ```
   GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName1 + "/with/key/" + apiKey);
         get.send();
   ```
   You’ll notice this is a “string” that is concatenated to create a URL.
   
- 5. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
+  ![blahblah](temp#img-full)
+  
+ 6. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
 
   ```
   GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName2 + "/with/key/" + apiKey);
@@ -151,3 +158,7 @@ void keyPressed() {
 }
 ```
 
+## Challenge
+### Can you create your own Processing<>IFTTT Recipe?
+1. Try changing the trigger in Processing to something more interesting then keyPressed.
+2. Try changing the webhook action in IFTTT. It doesn't need to connect to Kasa, it could connect to something else.
