@@ -44,4 +44,13 @@ Template for Modules:
 6. Now we need to create our **“that”** event, click on the `that` button. Select any notification as you normally would. In our instance I will turn on an outlet from `Kasa TP-Link`.
 7.Now select the Kasa TP-Link device that you plan to turn on.
 
+![blahblah](0-template-gif.gif#img-full)
+
+8. Now we need to get the HTTP request link to add to our processing sketch. Go to your profile image in the top right and select `My services` and select `webhooks`.
+9. Now from the webhooks page **click** the `settings`.
+
+![blahblah](0-template-gif.gif#img-full)
+
+10. Here you can find a URL with your **“unique key”**. Click `Documentation` then copy the key (very long text and number key).
+
 
