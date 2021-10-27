@@ -48,19 +48,22 @@ expanding the spatial UX toolkit - connecting software UI/programmability of Pro
 4. Now click on the **“Receive a web request”** .
 5. Create an **“Event Name”** for the trigger. I will just call mine **“turn_on”**. If you are creating a new event trigger, you should name this something unique. Then click `Create trigger`.
 
-![blahblah](0-template-gif.gif#img-full)
+![blahblah](images/webhooks-2.gif#img-full)
 
 6. Now we need to create our **“that”** event, click on the `that` button. Select any notification as you normally would. In our instance I will turn on an outlet from `Kasa TP-Link`.
 7.Now select the Kasa TP-Link device that you plan to turn on.
 
-![blahblah](0-template-gif.gif#img-full)
+![blahblah](images/webhooks-3.gif#img-full)
+![blahblah](images/webhooks-4.gif#img-full)
 
 8. Now we need to get the HTTP request link to add to our processing sketch. Go to your profile image in the top right and select `My services` and select `webhooks`.
 9. Now from the webhooks page **click** the `settings`.
 
-![blahblah](0-template-gif.gif#img-full)
+![blahblah](images/webhooks-5.gif#img-full)
+![blahblah](images/webhooks-6.gif#img-full)
 
 10. Here you can find a URL with your **“unique key”**. Click `Documentation` then copy the key (very long text and number key).
+![blahblah](images/webhooks-7.gif#img-full)
 
 Congrats! You have just created a unique key for IFTTT (common to software development when working with APIs).
 
