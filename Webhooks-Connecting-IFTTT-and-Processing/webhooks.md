@@ -41,7 +41,7 @@ expanding the spatial UX toolkit - connecting software UI/programmability of Pro
 ## Tutorial
 1. sign in to [IFTTT](https://ifttt.com/home)
 2. Go to `Create` → to create a new application
-3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks` and click `connect`.
+3. click on the **“this”** to choose our trigger. Search for **“webhooks”**. Select `webhooks`.
 
 ![processing-diagram](images/webhooks-1.gif#img-full)
 
