@@ -111,7 +111,7 @@ Close and restart Processing.
   String eventName2 = "turn_off";
   ```
   
-  ![blahblah](temp#img-full)
+![blahblah](images/webhooks-9.gif#img-full)
  
  5. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
   ```
