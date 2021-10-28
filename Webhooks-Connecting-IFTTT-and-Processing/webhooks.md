@@ -82,7 +82,7 @@ Unzip the folder.
 Close and restart Processing.
 
 3. Now lets set up the basic structure of our code using a `keyPressed()` to change the background color of our sketch. If the `UP` key is pressed we will make the background white and if the `DOWN` key is pressed we will turn the background black:
-  ```
+  ```java
   void setup() {
     size(200,150);
     background(0);
@@ -102,7 +102,7 @@ Close and restart Processing.
 
 4. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. Once you’ve pasted in the code below, please update it with your API key and event names.
 
-  ```
+  ```java
   import http.requests.*;
   //update the below API key
   String apiKey = "_____";
@@ -114,7 +114,7 @@ Close and restart Processing.
 ![blahblah](images/webhooks-9.gif#img-full)
  
  5. Next we will use `GetRequest` from the HTTP request library to make an HTTP request to webhooks. Inside of your `if` statement, and before you change the background color, copy the following:
-  ```
+  ```java
   GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName1 + "/with/key/" + apiKey);
         get.send();
   ```
@@ -124,14 +124,14 @@ Close and restart Processing.
   
  6. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
 
-  ```
+  ```java
   GetRequest get = new GetRequest("https://maker.ifttt.com/trigger/" + eventName2 + "/with/key/" + apiKey);
         get.send();
   ```
 
 Your full code should look like this:
 
-```
+```java
 import http.requests.*;
 //update the below API key
 String apiKey = "_______";
