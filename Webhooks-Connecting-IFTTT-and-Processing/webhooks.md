@@ -87,6 +87,7 @@ Close and restart Processing.
     size(200,150);
     background(0);
   }
+  
   void draw() {
   }
   void keyPressed() {
@@ -120,7 +121,6 @@ Close and restart Processing.
   ```
   You’ll notice this is a “string” that is concatenated to create a URL.
   
-  ![blahblah](temp#img-full)
   
  6. Next we will create a second `GetRequest` to in our `else if` statement to create a second event:
 
@@ -142,8 +142,8 @@ void setup() {
   size(200,150);
   background(0);
 }
-void draw() {
-  
+
+void draw() {  
 }
 void keyPressed() {
     if (keyCode == UP) {
@@ -156,9 +156,11 @@ void keyPressed() {
       background(0);
     }
 }
+
+
 ```
 
 ## Challenge
 ### Can you create your own Processing<>IFTTT Recipe?
-1. Try changing the trigger in Processing to something more interesting then keyPressed.
-2. Try changing the webhook action in IFTTT. It doesn't need to connect to Kasa, it could connect to something else.
+1. Try changing the trigger in Processing to something other than `keyPressed`. Could it be when the mouse is in an area of the canvas, or maybe at a certain time?
+2. Try changing the webhook action in IFTTT. It doesn't need to connect to Kasa, it could connect to a camera, an email, a sound, or something else.
