@@ -72,7 +72,7 @@ Congrats! You have just created a unique key for IFTTT (common to software devel
 1. Open up Processing! Lets start by using `keyPressed()` in Processing to turn on a light bulb.
 2. First we need to add a library which allows Processing to make HTTP requests. In Processing import the http request library. Go to `Sketch`→`Import Library` → `Add Library` → Search for **“http request”**. Select it and click `install`. Sometimes you will need to relaunch Processing after you install this library. If this works, skip to step 2.
 
-![blahblah](temp#img-full)
+![blahblah](images/webhooks-8.gif#img-full)
 
 If you’re still having issues with this library try downloading it directly:
 - You can download the library file directly from [here](https://drive.google.com/file/d/1GasdTrMZEwzPjEXPEwKMxjzdcV9WAIxE/view?usp=drive_open).
@@ -98,7 +98,7 @@ Close and restart Processing.
       }
   }
   ```
-![blahblah](temp#img-full)
+![blahblah](images/webhooks-9.gif#img-full)
 
 4. Next copy and paste the code below at the top of your code(before `void setup`). This lets us use the http request library and creates new variables for our **webhooks API** and our webhook **event names**. Our API Key will give webhooks the authentication for our specific profile. Without this key there is no way to know which webhooks profile we are trying to use. In our case we are using our class’s profile name. We will also use our event name so webhooks knows which event is being triggered. Once you’ve pasted in the code below, please update it with your API key and event names.
 
