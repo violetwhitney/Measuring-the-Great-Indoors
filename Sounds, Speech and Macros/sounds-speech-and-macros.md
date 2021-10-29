@@ -37,34 +37,25 @@ In this module you will learn how to work with sound in processing:
 - using speech
 
 ## Conceptual Introduction, or: Why is this interesting / important?
-Processing is a flexible software sketchbook and a language for learning how to code within the context of the visual arts. Its an especially great environment for ambient computing because it will allow you to prototype projection mapping that responds to interactive inputs like (a web cam, markers, or a multitude of triggers from the web). Many artists choose to work with Processing because of its visual interface and its simplicity. Processing can be a great environment to prototype user interfaces, tie together IOT devices, and work with interactive audio.
+Audio and speech are critical aspects to ambient environments. Because sound does not require our visual attention it has been the go-to interaction mechanism for smart home devices. 
 
-Below are some examples of artists using Processing in their own work:
+Below are some examples of artists using sound in Processing in their own work:
+[Sound Translator](https://vimeo.com/groups/processing/videos/3102434)
 
-![processing-ex](images/processing-ex-5.gif#img-left)
-![processing-ex](images/processing-ex-4.gif#img-left)
-![processing-ex](images/processing-ex2.gif#img-left)
-![processing-ex](images/processing-ex1.gif#img-left)
-![processing-ex](images/low-code.jpeg#img-left)
+
 
 ## Tutorial
 
-1. **Download Processing.**  
-Pl
+### Playing Sounds 
+1. From Processing go to `Sketch` → `Import Library`→ `Add Library` → search for **“sound”** and select `Sound` | Provides a simple way to work with audio” → and click ↓ Install.
 
-
-
-
-
-temp
-
-Playing Sounds
-From Processing go to Sketch → Import Library→ Add Library → search for “sound” and select “Sound | Provides a simple way to work with audio” → and click ↓ Install.
-
-2. Now in your Processing sketch copy in the following code from the codeblock below. You can also download the sketch from here.
+2. Now in your Processing sketch copy in the following code from the codeblock below. You can also download the full sketch from here.
 Do not press play just yet! You need to first add your sound file (.wav file or .aifff) to your Processing sketch folder.
 import processing.sound.*;
+
+```java
 SoundFile file;
+
 void setup(){
   size(800,800);
   background(255);
@@ -78,15 +69,18 @@ void setup(){
 }
 void draw(){
 }
-3. You can download stampede.aiff here or download goat.wav here. These are the sound files we would like Processing to play.
+```
+3. You can download stampede.aiff here or download goat.wav here. These are the sound files we would like Processing to play.  
+
 4. Save your Processing sketch. The name of your Processing folder must match the name of your Processing sketch as shown in the image below.
 Drag and drop the sound files you’ve just downloaded into your sketch folder as shown in the image below. Now when you press play from Processing your sound file should play.
 
-5. You can find more free sounds by creating an account at https://freesound.org/ and downloading your own files that you would like to play.
+5. You can find more free sounds by creating an account at [https://freesound.org/](https://freesound.org/) and downloading your own files that you would like to play.
 
 
-Listening to Your Mic
+### Listening to Your Mic
 To listen to the mic on your computer copy and paste the text from below. You can also download this Processing file directly from here.
+```java
 import processing.sound.*;
 AudioIn input;
 Amplitude analyzer;
@@ -111,48 +105,60 @@ void draw() {
 // Draw an ellipse with size based on volume
   ellipse(width/2, height/2, 10+vol*200, 10+vol*200);
 }
+```
 
-Text to Speech
-Getting A Mac Laptop to Speak
+### Text to Speech
+**Getting A Mac Laptop to Speak**  
 Processing can execute commands outside of Processing. On macs we can make our computers do speech to text:
+
+```java
 void setup(){
   exec("say", "hello");
 }
+```
+
 You can also use one of your Mac’s these unique voices:
 Alex, Alice, Alva, Amelie, Anna, Carmit, Damayanti, Daniel, Diego, Ellen, Fiona, Fred, Ioana, Joana, Jorge, Juan, Kanya, Karen, Kyoko, Laura, Lekha, Luca, Luciana,Maged, Mariska, Mei-Jia, Melina, Milena, Moira, Monica, Nora, Paulina, Samantha, Sara, Satu, Sin-ji, Tessa, Thomas, Ting-Ting, Veena, Victoria, Xander, Yelda, Yuna, Yuri, Zosia, Zuzana
+
+```java
 void setup(){
   exec("say", "-v", "Karen", "hello");
 }
+```
 
-Speaking to the Amazon Echo
+**Speaking to the Amazon Echo**
 You can also make your Mac speak to an Amazon Echo:
+
+```java
 void setup(){
   exec("say", "Alexa, what time is it");
 }
+```
 Or ask your echo to execute other services:
+```java
 void setup(){
   exec("say", "Alexa, turn off the lights");
 }
-Check here for a list of arguments you can use with the Amazon Echo.
+```
+Check the links below for a list of arguments you can use with these different smart home systems:
+- [Amazon Echo Commands](https://www.cnet.com/home/smart-home/every-alexa-command-you-can-give-your-amazon-echo-smart-speaker-or-display/)
+- [Google Home Commands](https://www.the-ambient.com/guides/best-google-assistant-commands-382)
 
 
-Text & Speech
+### Automated Language
 Finally if you want to think more about creating custom phrases you may want to understand more about what are called strings. Strings are a data type used in programming, such as an integer 6 a float 6.2, but is used to represent text rather than numbers, i.e. This is a string but 6 can also be a string. To learn more about strings and text in Processing check out this video tutorial:
+[Strings and Drawing Text - Processing Tutorial, Daniel Shiffman](https://www.youtube.com/watch?v=NLzne4XaR3M)
 
-Making Bots
-JSON format is particularly useful for auto-sentence generation because its dictionary format links words with keys which we can use as categories. The Corpora project is a great spot to find word lists already formatted as JSON.
+**Making Bots**
+JSON format is particularly useful for auto-sentence generation because its dictionary format links words with keys which we can use as categories. The [Corpora project](https://github.com/dariusk/corpora/tree/master/data) is a great spot to find word lists already formatted as JSON.
 
-As cynical start-up idea generator, Darius Kazemi
-As poetry maker, Allison Parrish
-Gender, Kate Compton
-Magic Realism, Kate Compton
+### Projects that Use Bots
+[As cynical start-up idea generator](https://twitter.com/BodegaBot), Darius Kazemi
+[As poetry maker](https://twitter.com/the_ephemerides), Allison Parrish
+[Magic Realism](https://twitter.com/MagicRealismBot), Kate Compton
 
-Projects that Use Sound
+### Projects that Use Sound
 
-
-
-
-Could you add a rainforest sound to a room everytime a person walks in the door, until you have a complex rainforest?
 
 Could you play with the idea of who is speaking in a room, and direct light towards them?
 https://vimeo.com/groups/processing/videos/3102434
