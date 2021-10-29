@@ -52,9 +52,17 @@ Markers can be attached to any object: a chair, a desk, a wall, a floor, a perso
       - PC — search for “camera” from the finder, choose you new camera. Further instructions here if needed. Close your Photo Booth or Camera app.
       
 **Software**
-- You will need Processing 2.0 or later.
-- Download TUIO here. Unzip and move it to Processing’s “libraries” folder.
-- Download ReacTIVision here. You will need to download the appropriate version for your operating system (i.e. Windows 7 64bit or later, or MacOS X 10.8 or later).
-   - You can check what operating system you have from a Mac by going to the apple menu → select about → in this menu you will see a version, for example “Version 10.12.6”. For windows type Computer in the search box, right-click on Computer, and then select Properties. Under Windows edition, you’ll see the version and edition of Windows that your device is running.
-Once you’ve downloaded the right version of ReacTIVision, unzip the folder and move it into your applications folder.
-Launch ReacTIVision. You may get a warning that its an application from the internet. Hit Open or Accept. You should see green numbers layered ontop of the fiducial markers.
+- You will need [Processing 2.0](https://processing.org/download) or later.
+- [Download TUIO here](https://drive.google.com/file/d/189WISuVLqTsM9A5eprC0qHGwemNUrEW8/view). **Unzip** and **move** it to Processing’s “libraries” folder.
+- [Download ReacTIVision here].(http://reactivision.sourceforge.net/#files) 
+   - You will need to download the appropriate version for your operating system (i.e. Windows 7 64bit or later, or MacOS X 10.8 or later).
+   - You can check what operating system you have from a Mac by going to the `apple menu` → select `about` → in this menu you will see a version, for example **“Version 10.12.6”**. For windows type Computer in the search box, right-click on Computer, and then select `Properties`. Under Windows edition, you’ll see the version and edition of Windows that your device is running.
+   - Once you’ve downloaded the right version of ReacTIVision, unzip the folder and move it into your applications folder.
+- Launch ReacTIVision. 
+   - You may get a warning that its an application from the internet. 
+   - Hit Open or Accept. 
+   - You should see green numbers layered ontop of the fiducial markers.
+
+IMAGE
+
+- Now open Processing and navigate to your libraries folder where you placed TUIO. Open TuioDemo.pde in Processing and hit play. (You must have reacTIVision still running. You should see black squares with the marker number that follow what is happening in the view. In the gif below I move the whiteboard moving the “5” marker, then sit in the chair obfuscating the “0” and “3” marker.
