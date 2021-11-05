@@ -47,13 +47,18 @@ Below are some examples of artists using sound in Processing in their own work:
 ## Tutorial
 
 ### Playing Sounds 
-1. From Processing go to `Sketch` → `Import Library`→ `Add Library` → search for **“sound”** and select `Sound` | Provides a simple way to work with audio” → and click ↓ Install.
+1. From Processing go to `Sketch` → `Import Library`→ `Add Library` → search for **“sound”** and select `Sound` | Provides a simple way to work with audio → and click ↓ Install.
 
-2. Now in your Processing sketch copy in the following code from the codeblock below. You can also download the full sketch from here.
-Do not press play just yet! You need to first add your sound file (.wav file or .aifff) to your Processing sketch folder.
-import processing.sound.*;
+2. Now in your Processing sketch copy in the following code from the codeblock below. If you get stuck, you can also [download the full sketch from here](https://drive.google.com/file/d/11ST40zIHw7ZzOZd78WWhkX1thc2AmTmv/view).
+Do not press play just yet! The code below 
+* imports the sound library
+* draws a canvas and sets the background to white
+* imports a sound file named "stampede" (we have not yet added this sound file, so our code will not yet know what to reference until we have added a sound file to our Processing folder), then plays the file
+* changes the volume
+
 
 ```java
+import processing.sound.*;
 SoundFile file;
 
 void setup(){
@@ -70,7 +75,8 @@ void setup(){
 void draw(){
 }
 ```
-3. You can download stampede.aiff here or download goat.wav here. These are the sound files we would like Processing to play.  
+3. Now lets add a sound file (.wav file or .aifff) to your Processing sketch folder so that we can play a sound.
+You can download [stampede.aiff here](https://drive.google.com/file/d/1TqHKS2-ed6b8mZc2pdsVgqyfONrGB6X-/view) or download [goat.wav here](https://drive.google.com/file/d/1Ra762fHMZ8bI-FrBlADfrF5T7oVHFzvV/view). These are the sound files we would like Processing to play.  
 
 4. Save your Processing sketch. The name of your Processing folder must match the name of your Processing sketch as shown in the image below.
 Drag and drop the sound files you’ve just downloaded into your sketch folder as shown in the image below. Now when you press play from Processing your sound file should play.
