@@ -117,7 +117,7 @@ void draw() {
 }
 ```
 
-[![Mic-Video]({image-url})]({https://youtu.be/5f6nnXDe4Aw} "Listening to Your Mic")
+[![Mic-Video]({sound_3.png})]({https://youtu.be/5f6nnXDe4Aw} "Listening to Your Mic")
 
 
 ### Text to Speech
