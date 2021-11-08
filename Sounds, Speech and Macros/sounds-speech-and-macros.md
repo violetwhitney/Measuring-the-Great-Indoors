@@ -117,7 +117,8 @@ void draw() {
 }
 ```
 
-[![Mic-Video]({sound_3.png})]({https://youtu.be/5f6nnXDe4Aw} "Listening to Your Mic")
+
+[![Listening to Your Mic](https://res.cloudinary.com/marcomontalbano/image/upload/v1636403273/video_to_markdown/images/youtube--5f6nnXDe4Aw-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/5f6nnXDe4Aw "Listening to Your Mic")
 
 
 ### Text to Speech
