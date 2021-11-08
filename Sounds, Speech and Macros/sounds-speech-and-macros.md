@@ -75,11 +75,15 @@ void setup(){
 void draw(){
 }
 ```
+![sound-1](images/sound_1.gif#img-left)
+
 3. Now lets add a sound file (.wav file or .aifff) to your Processing sketch folder so that we can play a sound.
 You can download [stampede.aiff here](https://drive.google.com/file/d/1TqHKS2-ed6b8mZc2pdsVgqyfONrGB6X-/view) or download [goat.wav here](https://drive.google.com/file/d/1Ra762fHMZ8bI-FrBlADfrF5T7oVHFzvV/view). These are the sound files we would like Processing to play.  
 
 4. Save your Processing sketch. The name of your Processing folder must match the name of your Processing sketch as shown in the image below.
 Drag and drop the sound files you’ve just downloaded into your sketch folder as shown in the image below. Now when you press play from Processing your sound file should play.
+
+![sound-2](images/sound_2.gif#img-left)
 
 5. You can find more free sounds by creating an account at [https://freesound.org/](https://freesound.org/) and downloading your own files that you would like to play.
 
