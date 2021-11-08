@@ -139,6 +139,7 @@ void setup(){
   exec("say", "-v", "Karen", "hello");
 }
 ```
+![sound-1](images/sound_4.jpeg#img-left)
 
 **Speaking to the Amazon Echo**
 You can also make your Mac speak to an Amazon Echo:
@@ -158,6 +159,7 @@ Check the links below for a list of arguments you can use with these different s
 - [Amazon Echo Commands](https://www.cnet.com/home/smart-home/every-alexa-command-you-can-give-your-amazon-echo-smart-speaker-or-display/)
 - [Google Home Commands](https://www.the-ambient.com/guides/best-google-assistant-commands-382)
 
+[![Listening to Your Mic](https://res.cloudinary.com/marcomontalbano/image/upload/v1636404402/video_to_markdown/images/youtube--JoRS7By8JEU-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://www.youtube.com/watch?v=JoRS7By8JEU "Listening to Your Mic")
 
 ### Automated Language
 Finally if you want to think more about creating custom phrases you may want to understand more about what are called strings. Strings are a data type used in programming, such as an integer 6 a float 6.2, but is used to represent text rather than numbers, i.e. This is a string but 6 can also be a string. To learn more about strings and text in Processing check out this video tutorial:
