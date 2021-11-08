@@ -139,7 +139,7 @@ void setup(){
   exec("say", "-v", "Karen", "hello");
 }
 ```
-![sound-1](images/sound_4.jpeg#img-left)
+![sound-4](images/sounds_4.jpeg#img-left)
 
 **Speaking to the Amazon Echo**
 You can also make your Mac speak to an Amazon Echo:
